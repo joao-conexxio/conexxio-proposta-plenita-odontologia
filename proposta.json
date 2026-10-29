@@ -1,0 +1,197 @@
+{
+  "slug": "plenita-odontologia",
+  "negocio": {
+    "nome": "Plenitá Odontologia e Saúde Integrada",
+    "logo": "brand/logo.png",
+    "whatsapp": "5543999270725",
+    "unidades": [
+      {
+        "bairro": "Centro · Londrina",
+        "endereco": "Av. Higienópolis, 70 · Center Irene Isabel, 2º andar, sala 24 · Londrina – PR",
+        "telefone": "(43) 99927-0725",
+        "horario": "Segunda a sexta, das 8h às 18h · sábado, das 8h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#2A3678",
+    "brand2": "#1E275C",
+    "ink": "#1B2250",
+    "bg": "#F4F8F8",
+    "pulse": "#3E9AA0",
+    "radius": "16px",
+    "registro": "editorial",
+    "fontDisplay": "Montserrat",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Sedação", "href": "#sedacao" },
+          { "texto": "Equipe", "href": "#equipe" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Londrina · Centro",
+        "h1": "Odontologia sem susto",
+        "lead": "Sedação e atendimento hospitalar para quem tem medo de dentista.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver como é a sedação",
+        "ctaSecundarioHref": "#sedacao",
+        "cardTitulo": "Agende sua avaliação"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Sedação consciente",
+          "Óxido nitroso",
+          "Atendimento hospitalar",
+          "Endodontia",
+          "Implantes",
+          "Invisalign",
+          "Odontopediatria",
+          "Periodontia",
+          "Cirurgia bucomaxilofacial"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "A Plenitá em números",
+        "itens": [
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "227", "rotulo": "avaliações de pacientes", "contar": 227 },
+          { "valor": "6", "rotulo": "especialistas na equipe", "contar": 6 }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "Atendimento humanizado",
+        "citacao": "Quem tem medo de dentista também precisa de tratamento.",
+        "autor": "Plenitá Odontologia e Saúde Integrada",
+        "texto": [
+          "Medo e vergonha são motivos comuns para adiar a consulta, e o problema costuma crescer enquanto isso. A equipe da Dra. Natalia Amaral propõe um atendimento humanizado e transparente: o paciente sabe o que será feito.",
+          "Quando só conversa não basta, há sedação consciente no consultório e atendimento em ambiente hospitalar. A avaliação define o caminho."
+        ]
+      }
+    },
+    { "custom": "blocos/sedacao.html" },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Cada área tem uma especialista na equipe, do canal ao implante, da criança à gestante.",
+        "itens": [
+          {
+            "nome": "Endodontia e urgência",
+            "descricao": "Tratamento de canal com sistema rotatório, conduzido pela Dra. Natalia, especialista na área. Dor de dente tem atendimento de emergência.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Implantes e próteses",
+            "descricao": "Implantes, próteses fixas e removíveis, e o Ultra Clean, protocolo de limpeza para próteses e implantes.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Ortodontia e alinhadores",
+            "descricao": "Aparelhos e alinhadores transparentes, com a Dra. Thais, Invisalign Doctor.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Periodontia e limpeza",
+            "descricao": "Gengiva, limpeza com ultrassom e manutenção periódica para o tratamento durar.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Odontopediatria e pré-natal odontológico",
+            "descricao": "Atendimento para crianças e para gestantes, com a mesma conversa tranquila e sem pressa.",
+            "icone": "bebe"
+          },
+          {
+            "nome": "Estética e cirurgias",
+            "descricao": "Clareamento caseiro e de consultório, restaurações, siso e bichectomia, com cirurgiã bucomaxilofacial na equipe.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/camera.html" },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "lead": "A primeira consulta é uma avaliação, sem compromisso de começar o tratamento no mesmo dia.",
+        "itens": [
+          { "titulo": "Mensagem no WhatsApp", "texto": "Conte o motivo da consulta: dor, medo, check-up ou um tratamento que ficou parado.", "icone": "conversa" },
+          { "titulo": "Avaliação com câmera intraoral", "texto": "A dentista mostra na tela o que encontrou e explica as opções.", "icone": "microscopio" },
+          { "titulo": "Plano explicado", "texto": "Ordem, prazo e, se for o caso, sedação ou atendimento hospitalar.", "icone": "agenda" },
+          { "titulo": "Retorno e manutenção", "texto": "Revisão e limpeza periódicas mantêm o resultado e evitam a volta da dor.", "icone": "check" }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Quem atende",
+        "itens": [
+          { "nome": "Natalia Amaral", "registro": "CRO/PR 23.167", "especialidade": "Endodontia · sedação odontológica", "foto": "midia/natalia.jpg" },
+          { "nome": "Thaísa Gonçalves", "especialidade": "Periodontia", "foto": "midia/thaisa.jpg" },
+          { "nome": "Thais Borsato", "especialidade": "Invisalign Doctor", "foto": "midia/thais.jpg" },
+          { "nome": "Ticiane Borges", "especialidade": "Implantodontia", "foto": "midia/ticiane.jpg" },
+          { "nome": "Rafaella Sidronio", "especialidade": "Odontopediatria", "foto": "midia/rafaella.jpg" },
+          { "nome": "Denise Furttado", "especialidade": "Cirurgia bucomaxilofacial", "foto": "midia/denise.jpg" }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          { "p": "Tenho muito medo de dentista. Posso ser atendido?", "r": "Pode, e é para esse paciente que o atendimento foi pensado. Na avaliação a dentista explica cada etapa e, se fizer sentido, indica sedação consciente ou atendimento hospitalar." },
+          { "p": "Quando o atendimento hospitalar é indicado?", "r": "Quando o caso pede mais estrutura ou o paciente não consegue ser atendido na cadeira do consultório. Isso é definido na avaliação, caso a caso." },
+          { "p": "Vocês atendem dor de dente fora de hora?", "r": "A clínica tem atendimento de emergência. Mande uma mensagem no WhatsApp contando o que está sentindo." },
+          { "p": "Atendem crianças e gestantes?", "r": "Sim. A equipe tem odontopediatra e faz o pré-natal odontológico." },
+          { "p": "Qual o horário de funcionamento?", "r": "De segunda a sexta, das 8h às 18h, e aos sábados, das 8h às 12h." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": { "titulo": "No Centro de Londrina, na Av. Higienópolis" }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Conte o que incomoda e marque sua avaliação",
+        "lead": "Mande uma mensagem com o motivo da consulta. A recepção indica o profissional e o horário.",
+        "cta": "Agendar avaliação"
+      }
+    },
+    { "id": "footer", "variant": "assinatura", "data": {} }
+  ]
+}

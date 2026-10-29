@@ -1,0 +1,38 @@
+<section class="blk-camera" id="camera">
+  <div class="wrap blk-camera__in">
+    <figure class="blk-camera__foto" data-reveal>
+      <!--foto:midia/consultorio.jpg|Consultório da Plenitá com a cadeira, a planta e a tela mostrando a imagem de um dente captada pela câmera intraoral-->
+      <figcaption>A imagem da câmera aparece na tela, ao lado da cadeira.</figcaption>
+    </figure>
+    <div class="blk-camera__txt">
+      <p class="blk-camera__eyebrow" data-reveal>A consulta começa pela câmera intraoral</p>
+      <h2 class="blk-camera__titulo" data-reveal>O paciente vê o próprio dente antes de ouvir o plano</h2>
+      <p class="blk-camera__lead" data-acende>Em vez de só ouvir o diagnóstico, o paciente acompanha na tela a cárie, a fratura ou o desgaste que a dentista está explicando. Para quem tem medo, saber o que está acontecendo na boca ajuda a decidir com mais calma.</p>
+      <ul class="blk-camera__lista">
+        <li data-reveal style="--d:0ms"><span class="blk-camera__ico"><!--icone:microscopio--></span><div><strong>Câmera intraoral</strong><p>Imagem ampliada, na mesma consulta.</p></div></li>
+        <li data-reveal style="--d:80ms"><span class="blk-camera__ico"><!--icone:check--></span><div><strong>Biossegurança</strong><p>Protocolo de assepsia e limpeza própria para próteses e implantes, o Ultra Clean.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-camera{padding-block:var(--sp-section);background:var(--bg-2)}
+.blk-camera__in{display:grid;gap:var(--sp-5)}
+.blk-camera__foto{margin:0}
+.blk-camera__foto img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 60%;border-radius:var(--r-lg)}
+.blk-camera__foto figcaption{margin-top:var(--sp-2);font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-camera__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--ink-dim)}
+.blk-camera__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-camera__lead{margin:var(--sp-3) 0 0;max-width:36rem;font-size:1.1rem;line-height:1.65;color:var(--ink-soft)}
+.blk-camera__lista{list-style:none;margin:var(--sp-4) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-camera__lista li{display:grid;grid-template-columns:2.4rem 1fr;gap:var(--sp-3);align-items:start;padding-top:var(--sp-3);border-top:1px solid var(--line)}
+.blk-camera__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-camera__ico svg{width:100%;height:100%}
+.blk-camera__lista strong{display:block;font-family:var(--f-display);font-size:1.2rem;font-weight:600;color:var(--ink)}
+.blk-camera__lista p{margin:.25rem 0 0;line-height:1.5;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-camera__in{grid-template-columns:6fr 5fr;gap:var(--sp-6,6rem);align-items:center}
+  .blk-camera__foto img{aspect-ratio:1/1}
+}
+</style>

@@ -1,0 +1,31 @@
+<section class="blk-sedacao" id="sedacao">
+  <div class="wrap blk-sedacao__in">
+    <div class="blk-sedacao__cab">
+      <p class="blk-sedacao__eyebrow" data-reveal>Sedação e atendimento hospitalar</p>
+      <h2 class="blk-sedacao__titulo" data-reveal>Para quem adia o dentista por medo, existe outro caminho</h2>
+      <p class="blk-sedacao__lead" data-acende>Nem todo tratamento precisa ser feito acordado e tenso. Na avaliação, a equipe conversa com o paciente e indica onde ele fica mais seguro: na cadeira do consultório, com sedação, ou em ambiente hospitalar.</p>
+    </div>
+    <ol class="blk-sedacao__passos" data-pilha>
+      <li><span class="blk-sedacao__ico"><!--icone:conversa--></span><strong>No consultório, com conversa</strong><p>Para muita gente, entender o que será feito antes de cada etapa já muda a consulta. É o ponto de partida do atendimento humanizado da casa.</p></li>
+      <li><span class="blk-sedacao__ico"><!--icone:pulmao--></span><strong>Sedação consciente e óxido nitroso</strong><p>Para o paciente com ansiedade, medo ou tratamento mais longo: ele segue relaxado durante o procedimento, acompanhado pela dentista.</p></li>
+      <li><span class="blk-sedacao__ico"><!--icone:estetoscopio--></span><strong>Atendimento hospitalar</strong><p>Quando o caso pede mais estrutura ou o paciente não consegue ser atendido na cadeira do consultório. A indicação é feita na avaliação, caso a caso.</p></li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-sedacao{padding-block:var(--sp-section);background:var(--brand);color:var(--on-dark)}
+.blk-sedacao__in{display:grid;gap:var(--sp-5)}
+.blk-sedacao__eyebrow{margin:0;font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-sedacao__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--on-dark)}
+.blk-sedacao__lead{margin:var(--sp-3) 0 0;max-width:38rem;font-size:1.1rem;line-height:1.65;color:var(--on-dark)}
+.blk-sedacao__passos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-sedacao__passos li{display:grid;gap:var(--sp-2);padding:var(--sp-4);border:1px solid color-mix(in srgb,var(--on-dark) 24%,transparent);border-radius:var(--r-lg);background:color-mix(in srgb,var(--on-dark) 6%,transparent)}
+.blk-sedacao__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--pulse)}
+.blk-sedacao__ico svg{width:100%;height:100%}
+.blk-sedacao__passos strong{font-family:var(--f-display);font-size:1.2rem;font-weight:600;color:var(--on-dark)}
+.blk-sedacao__passos p{margin:0;line-height:1.55;color:color-mix(in srgb,var(--on-dark) 82%,transparent)}
+@media (min-width:64rem){
+  .blk-sedacao__in{grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem);align-items:center}
+}
+</style>
